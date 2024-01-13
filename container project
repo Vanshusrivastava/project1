@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: blue;
+        }
+
+        .cont {
+            width: 50%;
+            height: 56px;
+            background-color: navy;
+            color: white;
+            text-align: center;
+            padding: 14px;
+            margin: 220px;
+            margin-left: 262px;
+        }
+        .box{
+            width: 52%;
+            height: 169px;
+            background-color: white;
+            margin-left: 266px;
+            margin-top: -219px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cont">
+        <h2>Aspect Ratio Calculator</h2>
+    </div>
+    <div class="box"></div>
+</body>
+
+</html>
