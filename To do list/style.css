@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: grey;
+    display: flex;
+    justify-content: center;
+}
+
+/* navbar styles */
+.navbar {
+    background-color: navy;
+    color: #fff;
+    padding: 10px ;
+    margin: 20px 10px 0px 10px;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    width: 50vw;
+    box-shadow: 9px 8px 20px 0px #191717;
+    border-radius: 20px;
+    font-family: "Poppins", sans-serif;
+    text-shadow: 9px 5px 20px gray;
+}
+
+.navbar:hover {
+    background: rgb(64, 72, 176);
+    font-weight: bold;
+    transition: ease-in 2s;
+    transition: ease-out 2s;
+    font-stretch: extra-expanded;
+    text-shadow: 5px 5px 5px black;
+}
+.cont{
+    background: black;
+    height: 100vh;
+    border: 10px solid navy;
+    box-shadow: -2px 8px 10px 2px navy;
+}
+.Add-txt>input{
+    padding: 10px;
+    font-size: 20px;
+    background: transparent;
+    color: white;
+    margin: 50px 0px 0px 180px;
+    border: 2px solid navy;
+    position: relative;
+    top: 2px;
+}
+.btn{
+    border: 2px 0px 2px 0px navy;
+    padding: 13px;
+    font-weight: bold;
+    color: white;
+    background:navy;
+    margin: -10px 0px 0px -3px;
+}
+
